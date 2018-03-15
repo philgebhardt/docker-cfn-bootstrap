@@ -1,6 +1,4 @@
-FROM debian:7.8
-
-MAINTAINER Mike Babineau <michael.babineau@gmail.com>
+FROM debian:9
 
 RUN apt-get update \
     && apt-get -y install --no-install-recommends \
